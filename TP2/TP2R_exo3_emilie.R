@@ -78,6 +78,6 @@ legend('topright', legend=c("virginica", "versicolor", "setosa" ),
 
 pdf(file="seapl_length_distribution.pdf")
 boxplot(formula=Sepal.Width~Species,data=iris,main="Distribution of the sepal length in the three iris species",xlab="Species",ylab="Length(cm)",outline=T)
-
+dev.off()
 
 
